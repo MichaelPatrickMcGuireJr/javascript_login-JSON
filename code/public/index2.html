@@ -1,0 +1,71 @@
+<html>
+<head>
+<link href="styles/page1.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<table width="100%" border="0" cellspacing="1" cellpadding="0">
+<tr><td class="center">
+<table width=250px>
+<tr><td>
+<img src="http://placehold.it/32x32" alt="Profile_Picture" class="center">
+<!--*************************users[0].picture-->
+</td></tr><tr><td align="center">
+	<table border="1">
+
+
+<form method="get" action="/update">
+  <input type="hidden" name="userid" value=""><input type="hidden" name="user_crit" value="balance">
+  <tr>
+  <td align="left" > <table width=100%><tr><td valign=top>balance</td><td><input type="submit" value="update?"></td></tr></table>   </td><td><input type="text" name="balance" value="whatever"></td>
+  </tr>
+</form>
+
+<form method="get" action="/update">
+  <input type="hidden" name="userid" value=""><input type="hidden" name="user_crit" value="company">
+  <tr>
+	<td align="left"> <table width=100%><tr><td valign=top>company</td><td><input type="submit" value="update?"></td></tr></table>   </td><td><input type="text" name="company"></td>
+	</tr>
+</form>
+
+<form method="get" action="/update">
+  <input type="hidden" name="userid" value=""><input type="hidden" name="user_crit" value="firstName">
+  <tr>
+	<td align="left"> <table width=100%><tr><td valign=top>first&nbspname</td><td><input type="submit" value="update?"></td></tr></table>   </td><td><input type="text" name="firstName"></td>
+	</tr>
+</form>
+
+<form method="get" action="/update">
+  <input type="hidden" name="userid" value=""><input type="hidden" name="user_crit" value="lastName">
+  <tr>
+	<td align="left"> <table width=100%><tr><td valign=top>last&nbspname</td><td><input type="submit" value="update?"></td></tr></table>   </td><td><input type="text" name="lastName"></td>
+	</tr>
+</form>
+
+<form method="get" action="/update">
+  <input type="hidden" name="userid" value=""><input type="hidden" name="user_crit" value="phone">
+  <tr>
+	<td align="left"> <table width=100%><tr><td valign=top>phone</td><td><input type="submit" value="update?"></td></tr></table>   </td><td><input type="text" name="phone"></td>
+	</tr>
+</form>
+
+<form method="get" action="/update">
+  <input type="hidden" name="userid" value=""><input type="hidden" name="user_crit" value="email">
+  <tr>
+  <td align="left"> <table width=100%><tr><td valign=top>email</td><td><input type="submit" value="update?"></td></tr></table>   </td><td><input type="text" name="email"></td>
+  </tr>
+</form>
+
+<form method="get" action="/update">
+  <input type="hidden" name="userid" value=""><input type="hidden" name="user_crit" value="address">
+  <tr>
+  <td align="left" valign="top"><table width="100%""><tr><td valign=top>address</td><td><input type="submit" value="update?"></td></tr></table> CITY&nbspSTATE&nbspZIP </td><td valign="top">
+    <input type="text" name="address_1" width="100%"><br>
+    <table><tr><td><input width="300px" type="text" name="city" size="10"></td><td><input width="100px" type="text" name="state" size="6"></td><td><input size="5" type="text" name="zip"></td></tr></table>
+  </td></tr>
+</form>
+
+
+  </table>
+</td></tr></table>
+</body>
+</html>

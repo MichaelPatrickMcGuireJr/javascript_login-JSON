@@ -1,0 +1,17 @@
+{
+  "posts": [],
+  "users": [
+    {
+      "firstName": "John",
+      "lastName": "Hancock"
+    },
+    {
+      "firstName": "Liz",
+      "lastName": "Smith"
+    },
+    {
+      "firstName": "Ahmed",
+      "lastName": "Khan"
+    }
+  ]
+}
